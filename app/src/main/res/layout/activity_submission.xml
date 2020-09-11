@@ -74,7 +74,7 @@
         android:layout_marginEnd="@dimen/size_24"
         android:background="@drawable/rectangle_round_corners_white"
         android:hint="@string/github_link"
-        android:inputType="textPersonName"
+        android:inputType="textUri"
         android:padding="@dimen/size_8"
         android:textColor="@color/primaryColor"
         android:textColorHint="@color/primaryColor"

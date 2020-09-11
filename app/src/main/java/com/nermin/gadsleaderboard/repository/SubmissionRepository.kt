@@ -33,7 +33,7 @@ class SubmissionRepository(
         }
     }
 
-    private fun performRequest(request: () -> retrofit2.Response<Void>): Response {
+    private suspend fun performRequest(request: suspend () -> retrofit2.Response<Void>): Response {
         return try {
             val response = request.invoke()
             if (response.isSuccessful)

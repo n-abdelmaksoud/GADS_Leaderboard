@@ -23,15 +23,18 @@ fun Activity.createConfirmationDialog(parentView: ViewGroup, action: () -> Unit)
         R.layout.dialog_confirmation,
         parentView,
         false
-    ).apply {
-        yesButton.setOnClickListener { action.invoke() }
-    }
+    )
     return AlertDialog.Builder(this, R.style.AlertDialogRoundCorner)
         .setView(view)
         .setCancelable(false)
         .show()
         .apply {
             view.closeButton.setOnClickListener { dismiss() }
+            view.yesButton.setOnClickListener {
+                dismiss()
+                action.invoke()
+            }
+
         }
 
 }
