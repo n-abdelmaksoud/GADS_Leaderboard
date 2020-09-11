@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GADS Leaderboard</string>
+    <string name="submit">Submit</string>
+    <string name="leaderboard">LEADERBOARD</string>
+
+    <string name="description_learning_hours">%1d learning hours, %1s</string>
+    <string name="description_skill_iq">%1d skill IQ Score, %1s</string>
+    <string name="general_error">"An error occurred! "</string>
+    <string name="loading">Loading ....</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="github_link">Project on GITHUB (link)</string>
+    <string name="incomplete_inputs">All fields are required! Fill all the Fields!!</string>
+    <string name="confirmation_message">Are you sure?</string>
+    <string name="yes">YES</string>
+    <string name="submission_success">Submission Successful</string>
+    <string name="submission_failed">Submission not Successful</string>
+    <string name="first_name_error">Invalid first name! enter name with min. 5 letters</string>
+    <string name="last_name_error">Invalid last name! enter name with min. 5 letters</string>
+    <string name="email_error">Error! Invalid Email address!</string>
+    <string name="link_error">Error! Invalid project link!!</string>
+</resources>
