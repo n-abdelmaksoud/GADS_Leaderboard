@@ -3,8 +3,8 @@
     <string name="submit">Submit</string>
     <string name="leaderboard">LEADERBOARD</string>
 
-    <string name="description_learning_hours">%1d learning hours, %1s</string>
-    <string name="description_skill_iq">%1d skill IQ Score, %1s</string>
+    <string name="description_learning_hours">%1d learning hours, %1s.</string>
+    <string name="description_skill_iq">%1d skill IQ Score, %1s.</string>
     <string name="general_error">"An error occurred! "</string>
     <string name="loading">Loading ....</string>
     <string name="project_submission">Project Submission</string>
