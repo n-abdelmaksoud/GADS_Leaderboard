@@ -17,8 +17,8 @@
     <string name="yes">YES</string>
     <string name="submission_success">Submission Successful</string>
     <string name="submission_failed">Submission not Successful</string>
-    <string name="first_name_error">Invalid first name! enter name with min. 5 letters</string>
-    <string name="last_name_error">Invalid last name! enter name with min. 5 letters</string>
+    <string name="first_name_error">Invalid first name! enter name with min. 2 letters</string>
+    <string name="last_name_error">Invalid last name! enter name with min. 2 letters</string>
     <string name="email_error">Error! Invalid Email address!</string>
     <string name="link_error">Error! Invalid project link!!</string>
 </resources>

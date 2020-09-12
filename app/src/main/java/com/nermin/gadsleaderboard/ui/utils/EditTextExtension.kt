@@ -4,7 +4,7 @@ import android.util.Patterns
 import android.webkit.URLUtil
 import android.widget.EditText
 
-private const val TEXT_LENGTH_MIN = 5
+private const val TEXT_LENGTH_MIN = 2
 
 fun EditText.isTextLengthValid(minLength: Int = TEXT_LENGTH_MIN) =
     isNotEmpty() &&
